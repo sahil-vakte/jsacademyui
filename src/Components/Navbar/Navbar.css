@@ -2,10 +2,31 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 10px;
+    /* background-color: #333; */
+    /* background-color: black; */
+    /* background: linear-gradient(45deg,black,black,#8bfffc); */
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    
   }
-  
+
+  .logo-symbol{
+    height: 50px;
+    width: 45px;
+  }
+  .logo-name{
+    margin: 0px;
+    font-family: math;
+  }
+  .logo-name-tagline{
+    margin: 0px;
+    color: #edcb53;
+    font-size: 12px;
+    font-family: cursive;
+  }
   .navbar-logo {
     display: flex;
     align-items: center;
@@ -48,6 +69,9 @@
     color: #fff;
     text-decoration: none;
     padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: math;
   }
   
   @media (max-width: 768px) {
