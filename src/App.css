@@ -3,11 +3,12 @@
 }
 
 .body{
+  /* background-color: #282e39; */
   background-color: black;
   /* background: linear-gradient(45deg,black,black,#8bfffc); */
 
   color: white;
-  height: 100vh;
+  height: 100%;
 }
 
 .App-logo {

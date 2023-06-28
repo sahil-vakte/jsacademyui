@@ -1,6 +1,8 @@
 import React from "react";
 import "./HomePage.css";
-import HpImg from "../../Assets/hp.svg";
+// import HpImg from "../../Assets/hp.svg";
+import HpImg from "../../Assets/asd.png";
+import Animation from "../Animation/Animation";
 
 const HomePage = () => {
   return (
@@ -17,8 +19,12 @@ const HomePage = () => {
             </p>
           </div>
           <div className="main-flex-div-two">
-            <img src={HpImg} className="hp-img-tag" />
+            {/* <img src={HpImg} className="hp-img-tag" /> */}
+            <Animation/>
           </div>
+        </div>
+        <div className="home-page-main-div-one">
+          <h1 class="fade-in">"JS Academy aims to empower individuals with comprehensive Web Development skills, enabling them to thrive in the rapidly evolving web development industry"</h1>
         </div>
       </div>
     </div>
