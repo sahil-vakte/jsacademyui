@@ -11,6 +11,8 @@ import NodeLogo from "../../Assets/nodejs-seeklogo.com.svg";
 import MdLogo from "../../Assets/mongodb-logo-svgrepo-com.svg";
 import pythonLogo from "../../Assets/python-seeklogo.com.svg";
 import djangoLogo from "../../Assets/django-seeklogo.com.svg";
+import UerOne from "../../Assets/doctor-hp-one.png";
+import UerTwo from "../../Assets/doctor-hp-two.png";
 
 const HomePage = () => {
   return (
@@ -47,6 +49,40 @@ const HomePage = () => {
             Development skills, enabling them to thrive in the rapidly evolving
             web development industry"
           </h1>
+        </div>
+
+        <div>
+          
+        </div>
+
+        <div className="details-flex-div-main">
+          <div>
+            <img src={UerOne} className="details-img-one" />
+          </div>
+          <div className="details-div">
+            <h1>
+              Transform your passion for coding into a thriving career with JS
+              Academy. Our industry-aligned training programs equip you with the
+              in-demand skills of the Software Development, empowering you to
+              create innovative web applications and stand out in today's
+              competitive job market.
+            </h1>
+            {/* <h1>Unlock your potential in web development with JS Academy's comprehensive Web Development training. Gain hands-on experience, practical skills, and industry-recognized certifications for a successful career in the dynamic world of web development.</h1> */}
+          </div>
+        </div>
+        <div className="details-flex-div-main">
+          <div className="details-div">
+            <h1>
+              Empower yourself with the latest web development technologies.
+              Join JS Academy and learn from expert instructors, build
+              real-world projects, and access a supportive community. Take the
+              leap towards becoming a skilled Software Developer and shape the
+              future of the web.
+            </h1>
+          </div>
+          <div>
+            <img src={UerTwo} className="details-img-one" />
+          </div>
         </div>
       </div>
     </div>

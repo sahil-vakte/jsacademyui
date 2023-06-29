@@ -58,6 +58,14 @@
     animation: pulsate 2s infinite; 
 }
 
+.details-flex-div-main{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 50px;
+  align-items: center;
+}
+
 .logo-s-flex-div{
     display: flex;
     flex-wrap: wrap;
@@ -68,6 +76,12 @@
     justify-content: center;
 }
 
+.details-img-one{
+  height: 500px;
+}
+.details-div h1{
+  width: 500px;
+}
 .logo-svg-img {
     height: 100px;
     width: 100px;
