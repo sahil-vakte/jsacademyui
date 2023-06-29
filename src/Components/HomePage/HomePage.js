@@ -48,7 +48,6 @@ const HomePage = () => {
           <img src={pythonLogo} className="logo-svg-img" />
           <img src={djangoLogo} className="logo-svg-img" />
         </div>
-       
 
         <div className="courses-flex-div">
           <div className="syllabus-card-main-div">
@@ -276,6 +275,67 @@ const HomePage = () => {
           </div>
           <div>
             <img src={UerTwo} className="details-img-one" />
+          </div>
+        </div>
+
+        <div className="why-js-div-main">
+          <div className="why-js-div-main-flex">
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/001-work-from-home.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Learn From Home</h1>
+                    <p>Stay Safe indoors</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/003-testing.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Personal Doubt Clearing</h1>
+                    <p>One to One Doubt Session</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/005-abc.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Beginner friendly</h1>
+                    <p>No prior knowledge required</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/001-code.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>100+ Coding Problems</h1>
+                    <p>Practice</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/004-book.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Syllabus</h1>
+                    <p>Syllabus is according to Industry requirement</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/003-elearning.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Experienced Trainers</h1>
+                    <p>Industry Working Experienced Trainers</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/006-calendar.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Test</h1>
+                    <p>Weekly Practical & Mock Test</p>
+                </div>
+            </div>
+            <div className="why-js-div-main-flex-one">
+                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/quality.png"/>
+                <div className="why-js-svg-text-tags">
+                    <h1>Certificates</h1>
+                    <p>Individual Certificate for each Module</p>
+                </div>
+            </div>
           </div>
         </div>
       </div>

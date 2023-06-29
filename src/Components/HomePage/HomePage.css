@@ -30,6 +30,46 @@
   font-size: 18px;
 }
 
+.why-js-div-main{
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.why-js-div-main-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+ 
+}
+.why-js-div-main-flex-one{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 5px;
+  width: 240px;
+}
+
+.why-js-svg{
+  height: 50px;
+  width: 50px;
+}
+
+.why-js-svg-text-tags h1{
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+
+}
+.why-js-svg-text-tags p{
+    color: gray;
+    font-size: 14px;
+    margin: 0px;
+}
+
 .details-of-course-flex-in{
   display: flex;
   justify-content: center;
