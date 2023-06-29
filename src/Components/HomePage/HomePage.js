@@ -17,6 +17,7 @@ import UerThree from "../../Assets/Programmer-Illustration.png";
 
 import { AiFillClockCircle } from "react-icons/ai";
 import { ImBooks } from "react-icons/im";
+import FAQ from "../FAQ/FAQ";
 
 const HomePage = () => {
   return (
@@ -337,6 +338,13 @@ const HomePage = () => {
                 </div>
             </div>
           </div>
+        </div>
+
+        <div className="faq-main-div">
+            <div className="faq-main-div-one">
+              <h1>FAQ's</h1>
+            </div>
+          <FAQ/>
         </div>
       </div>
     </div>
