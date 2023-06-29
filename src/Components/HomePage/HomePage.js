@@ -13,6 +13,10 @@ import pythonLogo from "../../Assets/python-seeklogo.com.svg";
 import djangoLogo from "../../Assets/django-seeklogo.com.svg";
 import UerOne from "../../Assets/doctor-hp-one.png";
 import UerTwo from "../../Assets/doctor-hp-two.png";
+import UerThree from "../../Assets/Programmer-Illustration.png";
+
+import { AiFillClockCircle } from "react-icons/ai";
+import { ImBooks } from "react-icons/im";
 
 const HomePage = () => {
   return (
@@ -31,6 +35,7 @@ const HomePage = () => {
           <div className="main-flex-div-two">
             {/* <img src={HpImg} className="hp-img-tag" /> */}
             <Animation />
+            {/* <UerThree/> */}
           </div>
         </div>
         <div className="logo-s-flex-div">
@@ -43,16 +48,205 @@ const HomePage = () => {
           <img src={pythonLogo} className="logo-svg-img" />
           <img src={djangoLogo} className="logo-svg-img" />
         </div>
+       
+
+        <div className="courses-flex-div">
+          <div className="syllabus-card-main-div">
+            <img
+              src="https://www.itvedant.com/images/course/master-in-full-stack.webp"
+              className="sylla-bus-card-img"
+            />
+            <p className="course-type-p-tag">#TRENDING</p>
+            <h1 className="course-type-h-tag">MERN Stack Development</h1>
+
+            <div className="details-of-course-flex-in">
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Duration</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                    }}
+                  >
+                    <AiFillClockCircle style={{ fill: "#11c8de" }} />
+                    <h2> 6 Months</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Case Studies</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <ImBooks style={{ fill: "#11c8de" }} />
+                    <h2> 10</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="learn-more-div">
+              <button className="learn-more-div-btn">Learn More</button>
+            </div>
+          </div>
+          <div className="syllabus-card-main-div">
+            <img
+              src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600"
+              className="sylla-bus-card-img"
+            />
+            <p className="course-type-p-tag">#POPULAR</p>
+            <h1 className="course-type-h-tag">Python Full Stack Development</h1>
+
+            <div className="details-of-course-flex-in">
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Duration</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                    }}
+                  >
+                    <AiFillClockCircle style={{ fill: "#11c8de" }} />
+                    <h2> 6 Months</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Case Studies</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <ImBooks style={{ fill: "#11c8de" }} />
+                    <h2> 10</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="learn-more-div">
+              <button className="learn-more-div-btn">Learn More</button>
+            </div>
+          </div>
+          <div className="syllabus-card-main-div">
+            <img
+              src="https://wallpapers.com/images/high/dual-monitor-sky-desk-s71a8t0lv5gcd1q5.webp"
+              className="sylla-bus-card-img"
+            />
+            <p className="course-type-p-tag">#BESTINFUTURE</p>
+            <h1 className="course-type-h-tag">Web Design + React JS</h1>
+
+            <div className="details-of-course-flex-in">
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Duration</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                    }}
+                  >
+                    <AiFillClockCircle style={{ fill: "#11c8de" }} />
+                    <h2> 3 Months</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Case Studies</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <ImBooks style={{ fill: "#11c8de" }} />
+                    <h2> 10</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="learn-more-div">
+              <button className="learn-more-div-btn">Learn More</button>
+            </div>
+          </div>
+          <div className="syllabus-card-main-div">
+            <img
+              src="https://wallpapers.com/images/high/office-desk-and-hot-coffee-2s7n5usp03qbrjh1.webp"
+              className="sylla-bus-card-img"
+            />
+            <p className="course-type-p-tag">#EVERGREEN</p>
+            <h1 className="course-type-h-tag">React JS</h1>
+
+            <div className="details-of-course-flex-in">
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Duration</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                    }}
+                  >
+                    <AiFillClockCircle style={{ fill: "#11c8de" }} />
+                    <h2> 2 Months</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div className="details-deuarion-bg">
+                <div>
+                  <p>Case Studies</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "5px",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <ImBooks style={{ fill: "#11c8de" }} />
+                    <h2> 10</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="learn-more-div">
+              <button className="learn-more-div-btn">Learn More</button>
+            </div>
+          </div>
+        </div>
+
         <div className="home-page-main-div-one">
           <h1 class="fade-in">
             "JS Academy aims to empower individuals with comprehensive Web
             Development skills, enabling them to thrive in the rapidly evolving
             web development industry"
           </h1>
-        </div>
-
-        <div>
-          
         </div>
 
         <div className="details-flex-div-main">
