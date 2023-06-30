@@ -1,0 +1,28 @@
+.footer-main-div{
+    background-color: aliceblue;
+    padding: 20px;
+    color: black;
+}
+
+.footer-flex-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-width-div{
+    width: 300px;
+}
+.footer-width-div h1{
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer-flex-div{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

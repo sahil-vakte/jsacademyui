@@ -18,6 +18,7 @@ import UerThree from "../../Assets/Programmer-Illustration.png";
 import { AiFillClockCircle } from "react-icons/ai";
 import { ImBooks } from "react-icons/im";
 import FAQ from "../FAQ/FAQ";
+import Footer from "../Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -34,8 +35,8 @@ const HomePage = () => {
             </p>
           </div>
           <div className="main-flex-div-two">
-            {/* <img src={HpImg} className="hp-img-tag" /> */}
-            <Animation />
+            <img src={UerThree} className="hp-img-tag" />
+            {/* <Animation /> */}
             {/* <UerThree/> */}
           </div>
         </div>
@@ -345,6 +346,10 @@ const HomePage = () => {
               <h1>FAQ's</h1>
             </div>
           <FAQ/>
+        </div>
+
+        <div className="js-footer">
+          <Footer/>
         </div>
       </div>
     </div>

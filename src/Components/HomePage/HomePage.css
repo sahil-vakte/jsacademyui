@@ -7,6 +7,10 @@
   gap: 30px;
   padding-bottom: 50px;
 }
+
+.js-footer{
+  padding-top: 20px;
+}
 .syllabus-card-main-div{
   border: 1px solid white;
   padding: 20px;
@@ -133,11 +137,11 @@
 .home-page-main-div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 50px;
-  padding-left: 180px;
-  padding-right: 100px;
-  padding-bottom: 50px;
+  /* padding-left: 180px; */
+  /* padding-right: 100px; */
+  /* padding-bottom: 50px; */
 }
 
 .main-flex-div-one {
@@ -156,12 +160,14 @@
 }
 .main-flex-div-two {
   width: 40%;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  /* padding-top: 160px; */
+  /* padding-bottom: 160px; */
 }
 
 .hp-img-tag {
-  height: 500px;
+  /* height: 500px; */
+  height: 535px;
+    width: 670px;
 }
 
 .home-page-main-div-one {
@@ -276,7 +282,8 @@
     width: 100%;
   }
   .hp-img-tag {
-    height: 240px;
+    height: 255px;
+    width: 100%;
   }
   .home-page-main-div-one {
     padding-left: 20px;
