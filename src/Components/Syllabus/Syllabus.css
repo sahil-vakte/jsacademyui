@@ -1,0 +1,85 @@
+.syllabus-width-div{
+    /* height: 100vh; */
+    width: 100%;
+    color: black;
+    /* min-height: 80vh; */
+}
+
+.syllabus-main-div{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.syllabus-main-div-one{
+    padding: 20px;
+    background-color: white;
+}
+
+.syllabus-detail-info-div{
+    display: flex;
+    border: 1px solid gray;
+    /* gap: 10px; */
+    /* padding: 5px; */
+}
+
+.sylla-bus-section{
+    padding: 10px;
+    border-right: 1px solid gray;
+    cursor: pointer;
+    font-weight: 700;
+    /* background-color: aquamarine; */
+
+}
+.sylla-bus-section-active{
+    background-color: aquamarine;
+    padding: 10px;
+    border-right: 1px solid gray;
+    cursor: pointer;
+    font-weight: 700;
+}
+.descr-main-div{
+    padding: 20px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+.desc-he-tag{
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.desc-pa-tag{
+margin: 0px;
+}
+
+.header-ofsyll{
+    font-size: 22px;
+    margin: 0px;
+}
+
+.header-ofsyll-li{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.details-data-of-syl{
+    padding-top: 10px;
+}
+
+@media (max-width: 768px){
+    .syllabus-main-div{
+        padding: 10px;
+    }
+    .desc-he-tag{
+        margin: 0px;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    li{
+        font-size: 15px;
+    }
+}

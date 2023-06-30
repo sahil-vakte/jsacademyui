@@ -349,7 +349,7 @@ const HomePage = () => {
         </div>
 
         <div className="js-footer">
-          <Footer/>
+          {/* <Footer/> */}
         </div>
       </div>
     </div>
