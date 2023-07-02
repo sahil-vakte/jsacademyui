@@ -14,6 +14,7 @@ import djangoLogo from "../../Assets/django-seeklogo.com.svg";
 import UerOne from "../../Assets/doctor-hp-one.png";
 import UerTwo from "../../Assets/doctor-hp-two.png";
 import UerThree from "../../Assets/Programmer-Illustration.png";
+import { Link } from "react-router-dom";
 
 import { AiFillClockCircle } from "react-icons/ai";
 import { ImBooks } from "react-icons/im";
@@ -96,7 +97,10 @@ const HomePage = () => {
             </div>
 
             <div className="learn-more-div">
+            <Link to="/syllabus">
+
               <button className="learn-more-div-btn">Learn More</button>
+            </Link>
             </div>
           </div>
           <div className="syllabus-card-main-div">
