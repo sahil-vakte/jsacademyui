@@ -290,20 +290,7 @@ const HomePage = () => {
             {/* <h1>Unlock your potential in web development with JS Academy's comprehensive Web Development training. Gain hands-on experience, practical skills, and industry-recognized certifications for a successful career in the dynamic world of web development.</h1> */}
           </div>
         </div>
-        <div className="details-flex-div-main">
-          <div className="details-div">
-            <h1>
-              Empower yourself with the latest web development technologies.
-              Join JS Academy and learn from expert instructors, build
-              real-world projects, and access a supportive community. Take the
-              leap towards becoming a skilled Software Developer and shape the
-              future of the web.
-            </h1>
-          </div>
-          <div>
-            <img src={UerTwo} className="details-img-one" />
-          </div>
-        </div>
+       
 
         <div className="why-js-div-main">
           <div className="why-js-div-main-flex">
@@ -366,12 +353,27 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="faq-main-div">
+        <div className="details-flex-div-main">
+          <div className="details-div">
+            <h1>
+              Empower yourself with the latest web development technologies.
+              Join JS Academy and learn from expert instructors, build
+              real-world projects, and access a supportive community. Take the
+              leap towards becoming a skilled Software Developer and shape the
+              future of the web.
+            </h1>
+          </div>
+          <div>
+            <img src={UerTwo} className="details-img-one" />
+          </div>
+        </div>
+
+        {/* <div className="faq-main-div">
             <div className="faq-main-div-one">
               <h1>FAQ's</h1>
             </div>
           <FAQ/>
-        </div>
+        </div> */}
 
         <div className="js-footer">
           {/* <Footer/> */}
