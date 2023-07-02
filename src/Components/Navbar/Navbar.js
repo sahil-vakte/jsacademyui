@@ -29,6 +29,15 @@ const Navbar = () => {
       </div>
       </div>
       <ul className={`navbar-nav ${isMobileMenuOpen ? "open" : ""}`}>
+      <div style={{display:"flex", alignItems:"center",gap:"5px"}} >
+      <h1 style={{margin:"0px"}}>Contact Us :</h1>
+      <div>
+      <p style={{margin:"0px"}}>+91 9405199411</p>
+      <p style={{margin:"0px"}}>+91 9403532808</p>
+      </div>
+      </div>
+      </ul>
+      {/* <ul className={`navbar-nav ${isMobileMenuOpen ? "open" : ""}`}>
         <li className="nav-item">
           <a href="/" className="nav-link">
             Home
@@ -44,7 +53,7 @@ const Navbar = () => {
             Contact
           </a>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 };

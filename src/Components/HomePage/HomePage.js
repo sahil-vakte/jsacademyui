@@ -109,7 +109,7 @@ const HomePage = () => {
             </div>
 
             <div className="learn-more-div">
-            <Link to="/syllabus">
+            <Link to="https://forms.gle/2DVxv7S5iyKs4SRk8" target="_blank">
 
               <button className="learn-more-div-btn">Learn More</button>
             </Link>
@@ -159,7 +159,10 @@ const HomePage = () => {
             </div>
 
             <div className="learn-more-div">
+            <Link to="https://forms.gle/2DVxv7S5iyKs4SRk8" target="_blank">
+
               <button className="learn-more-div-btn">Learn More</button>
+            </Link>
             </div>
           </div>
           <div className="syllabus-card-main-div">
@@ -206,7 +209,10 @@ const HomePage = () => {
             </div>
 
             <div className="learn-more-div">
+            <Link to="https://forms.gle/2DVxv7S5iyKs4SRk8" target="_blank">
+
               <button className="learn-more-div-btn">Learn More</button>
+            </Link>
             </div>
           </div>
           <div className="syllabus-card-main-div">
@@ -253,7 +259,10 @@ const HomePage = () => {
             </div>
 
             <div className="learn-more-div">
+            <Link to="https://forms.gle/2DVxv7S5iyKs4SRk8" target="_blank">
+
               <button className="learn-more-div-btn">Learn More</button>
+            </Link>
             </div>
           </div>
         </div>
