@@ -14,6 +14,18 @@ import djangoLogo from "../../Assets/django-seeklogo.com.svg";
 import UerOne from "../../Assets/doctor-hp-one.png";
 import UerTwo from "../../Assets/doctor-hp-two.png";
 import UerThree from "../../Assets/Programmer-Illustration.png";
+import CourseOne from "../../Assets/courseone.jpg";
+import CourseTwo from "../../Assets/coursetwo.jpeg";
+import CourseThree from "../../Assets/coursethree.jpg";
+import CourseFour from "../../Assets/coursefour.jpg";
+import JsOne from "../../Assets/jsone.png";
+import JsTwo from "../../Assets/jstwo.png";
+import JsThee from "../../Assets/jsthree.png";
+import JsFour from "../../Assets/jsfour.png";
+import JsFive from "../../Assets/jsfive.png";
+import JsSix from "../../Assets/jssix.png";
+import JsSeven from "../../Assets/jsseven.png";
+import JsEight from "../../Assets/jseight.png";
 import { Link } from "react-router-dom";
 
 import { AiFillClockCircle } from "react-icons/ai";
@@ -55,7 +67,7 @@ const HomePage = () => {
         <div className="courses-flex-div">
           <div className="syllabus-card-main-div">
             <img
-              src="https://www.itvedant.com/images/course/master-in-full-stack.webp"
+              src={CourseOne}
               className="sylla-bus-card-img"
             />
             <p className="course-type-p-tag">#TRENDING</p>
@@ -105,7 +117,7 @@ const HomePage = () => {
           </div>
           <div className="syllabus-card-main-div">
             <img
-              src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src={CourseTwo}
               className="sylla-bus-card-img"
             />
             <p className="course-type-p-tag">#POPULAR</p>
@@ -152,7 +164,7 @@ const HomePage = () => {
           </div>
           <div className="syllabus-card-main-div">
             <img
-              src="https://wallpapers.com/images/high/dual-monitor-sky-desk-s71a8t0lv5gcd1q5.webp"
+              src={CourseThree}
               className="sylla-bus-card-img"
             />
             <p className="course-type-p-tag">#BESTINFUTURE</p>
@@ -199,7 +211,7 @@ const HomePage = () => {
           </div>
           <div className="syllabus-card-main-div">
             <img
-              src="https://wallpapers.com/images/high/office-desk-and-hot-coffee-2s7n5usp03qbrjh1.webp"
+              src={CourseFour}
               className="sylla-bus-card-img"
             />
             <p className="course-type-p-tag">#EVERGREEN</p>
@@ -287,56 +299,56 @@ const HomePage = () => {
         <div className="why-js-div-main">
           <div className="why-js-div-main-flex">
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/001-work-from-home.png"/>
+                <img className="why-js-svg" src={JsOne}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Learn From Home</h1>
                     <p>Stay Safe indoors</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/003-testing.png"/>
+                <img className="why-js-svg" src={JsTwo}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Personal Doubt Clearing</h1>
                     <p>One to One Doubt Session</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/005-abc.png"/>
+                <img className="why-js-svg" src={JsThee}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Beginner friendly</h1>
                     <p>No prior knowledge required</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/001-code.png"/>
+                <img className="why-js-svg" src={JsFour}/>
                 <div className="why-js-svg-text-tags">
                     <h1>100+ Coding Problems</h1>
                     <p>Practice</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/004-book.png"/>
+                <img className="why-js-svg" src={JsFive}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Syllabus</h1>
                     <p>Syllabus is according to Industry requirement</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/003-elearning.png"/>
+                <img className="why-js-svg" src={JsSix}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Experienced Trainers</h1>
                     <p>Industry Working Experienced Trainers</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/006-calendar.png"/>
+                <img className="why-js-svg" src={JsSeven}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Test</h1>
                     <p>Weekly Practical & Mock Test</p>
                 </div>
             </div>
             <div className="why-js-div-main-flex-one">
-                <img className="why-js-svg" src="https://prutor.ai/wp-content/uploads/quality.png"/>
+                <img className="why-js-svg" src={JsEight}/>
                 <div className="why-js-svg-text-tags">
                     <h1>Certificates</h1>
                     <p>Individual Certificate for each Module</p>
