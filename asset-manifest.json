@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jsacademyui/static/css/main.e9e3bc7a.css",
+    "main.js": "/jsacademyui/static/js/main.f1209280.js",
+    "static/js/787.a9cb9ba6.chunk.js": "/jsacademyui/static/js/787.a9cb9ba6.chunk.js",
+    "static/media/Programmer-Illustration.png": "/jsacademyui/static/media/Programmer-Illustration.2d4034d4f4d39fd41f83.png",
+    "static/media/asd.png": "/jsacademyui/static/media/asd.3be6aa53eb18d416e359.png",
+    "static/media/coursethree.jpg": "/jsacademyui/static/media/coursethree.c9ad30c6a4add9c28449.jpg",
+    "static/media/coursefour.jpg": "/jsacademyui/static/media/coursefour.699baa1506ce2f233713.jpg",
+    "static/media/courseone.jpg": "/jsacademyui/static/media/courseone.eaabab1a83991bb13493.jpg",
+    "static/media/doctor-hp-one.png": "/jsacademyui/static/media/doctor-hp-one.bc7c198e5825c7301efc.png",
+    "static/media/doctor-hp-two.png": "/jsacademyui/static/media/doctor-hp-two.425979f0a9146f7225b1.png",
+    "static/media/coursetwo.jpeg": "/jsacademyui/static/media/coursetwo.87fa890ef938aaa6b4cb.jpeg",
+    "static/media/react-seeklogo.com.svg": "/jsacademyui/static/media/react-seeklogo.com.a44bcd74fef6a7a4d3742bbaa4914629.svg",
+    "static/media/mongodb-logo-svgrepo-com.svg": "/jsacademyui/static/media/mongodb-logo-svgrepo-com.f8dce71c8c05626e94b8470595eeaf7d.svg",
+    "static/media/react-svgrepo-com.svg": "/jsacademyui/static/media/react-svgrepo-com.5f3c4f7c8a06424f4a9e6b5a42207d2f.svg",
+    "static/media/nodejs-seeklogo.com.svg": "/jsacademyui/static/media/nodejs-seeklogo.com.cc3d45a160579a330a5c17cc2c8f1407.svg",
+    "static/media/html-5-svgrepo-com.svg": "/jsacademyui/static/media/html-5-svgrepo-com.2202d1694be2965ebaee5cbaec3553a0.svg",
+    "static/media/python-seeklogo.com.svg": "/jsacademyui/static/media/python-seeklogo.com.e78f188fa5e62ee2613d19802f817df6.svg",
+    "static/media/logo.svg": "/jsacademyui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/django-seeklogo.com.svg": "/jsacademyui/static/media/django-seeklogo.com.8f810ac5d5af0359c13de518c71e8b7e.svg",
+    "static/media/css-3-logo-svgrepo-com.svg": "/jsacademyui/static/media/css-3-logo-svgrepo-com.10e4f157281910dc6c8ed91661e4ad76.svg",
+    "static/media/javascript-seeklogo.com.svg": "/jsacademyui/static/media/javascript-seeklogo.com.ba40d6a9629bf521391e764a593f9df3.svg",
+    "index.html": "/jsacademyui/index.html",
+    "main.e9e3bc7a.css.map": "/jsacademyui/static/css/main.e9e3bc7a.css.map",
+    "main.f1209280.js.map": "/jsacademyui/static/js/main.f1209280.js.map",
+    "787.a9cb9ba6.chunk.js.map": "/jsacademyui/static/js/787.a9cb9ba6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9e3bc7a.css",
+    "static/js/main.f1209280.js"
+  ]
+}
